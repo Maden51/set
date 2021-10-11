@@ -1,0 +1,37 @@
+{
+  "name": "set",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint .",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maden51/set.git"
+  },
+  "author": "maden51",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maden51/set/issues"
+  },
+  "homepage": "https://github.com/Maden51/set#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-jest": "^27.2.5",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "jest": "^27.2.5",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.9.0"
+  },
+  "dependencies": {
+    "core-js": "^3.18.2"
+  }
+}
