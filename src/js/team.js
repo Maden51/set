@@ -5,7 +5,7 @@ export default class Team {
 
   add(character) {
     this.members.forEach((item) => {
-      if (item === character) {
+      if (JSON.stringify(item) === JSON.stringify(character)) {
         throw new Error('Такой персонаж уже есть в команде');
       }
     });
